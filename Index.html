@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A modern, responsive website with animations and shadows.">
+    <title>Personal Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">My Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero-content"><br><br>
+                <img src="Profile.jpg" alt="profile Picture" class="img">
+                <h1>Muhammad Ghous Raza</h1>
+                <h2>Welcome to My Portfolio</h2>
+                <p>Experience modern design with smooth animations, elegant shadows, and full responsiveness.</p>
+                <a href="#services" class="btn">Explore Services</a>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About Us</h2>
+                <p>We are passionate about turning ideas into modern, responsive, and high-performing websites. We specialize in creating web solutions that not only look stunning but also deliver an exceptional user experience.
+                    With expertise in front-end and back-end development, we build websites, web applications, and e-commerce platforms tailored to meet your unique needs. Our goal is to help businesses, startups, and individuals thrive online by combining creativity, technology, and innovation.
+                    We believe in clean code, innovative design, and seamless functionality. From the initial concept to deployment, we ensure every project is executed with precision, reliability, and attention to detail.
+                    Whether you need a personal portfolio, business website, or complex web application, we are here to bring your vision to life and make your online presence stand out.
+                </p>
+            </div>
+        </section>
+
+        <section id="education" class="education">
+            <div class="container">
+                <h2>Education</h2>
+                <ul class="education-list">
+                    <li><strong>DIT in Information Technology</strong> - Completed at Government Degree College, Mirpur Mathelo</li>
+                    <li><strong>Intermediate in Pre-Engineering</strong> - Completed at Government Boys High School Mirpur Mathelo</li>
+                    <li><strong>Matriculation in Science</strong> - Completed at QuickTech Institute of IT</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="experience" class="experience">
+            <div class="container">
+                <h2>Experience</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <h3>Computer Operator</h3>
+                        <p>Shaheen Public Higher Secondary School, Mirpur Mathelo</p>
+                        <ul>
+                            <li>Managing school online software</li>
+                            <li>Assisting the principal</li>
+                            <li>Solving GR-related issues</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="skill-cards">
+                    <div class="skill-card">
+                        <h3>HTML</h3>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="95%"></div>
+                        </div>
+                        <span>95%</span>
+                    </div>
+                    <div class="skill-card">
+                        <h3>CSS</h3>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="90%"></div>
+                        </div>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-card">
+                        <h3>JavaScript</h3>
+                        <div class="progress-bar">
+                            <div class="progress" data-width="85%"></div>
+                        </div>
+                        <span>85%</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <h2>Our Services</h2>
+                <div class="service-cards">
+                    <div class="card">
+                        <h3>Web Design</h3>
+                        <p>Custom, responsive designs tailored to your needs.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Development</h3>
+                        <p>Front-end and back-end development with modern technologies.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <form id="contact-form">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 MySite. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="Script.js"></script>
+</body>
+</html>
